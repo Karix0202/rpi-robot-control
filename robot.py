@@ -21,4 +21,4 @@ class Robot:
 
     def stay_at_rest(self):
         for i in range(len(self.pins)):
-            GPIO.output(self.pins[i], self.stay[i])
+            GPIO.output(self.pins[i], self.rest[i])
